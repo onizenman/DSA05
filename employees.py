@@ -67,7 +67,7 @@ btmostrar = sb.checkbox('Mostrar los datos.')
 #sb.header('Buscar empleado por:')
 
 texto = sb.text_input('Buscar:',
-                      help='Permitan buscar por ID de empelado, Ciudad o Unidad')
+                      help='Buscar por ID de empelado, Ciudad o Unidad')
 if (sb.button('Buscar') or texto):
     encontrado = buscar_texto(texto)
     if encontrado.empty:

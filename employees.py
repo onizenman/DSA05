@@ -120,7 +120,7 @@ with cDashboard:
     bin = np.arange((employees['Age'].min()//5)*5,
                     ((employees['Age'].max()//5)+1)*5,5)
     ax1.hist(employees['Age'].dropna(),bins=bin)
-    ax1.set_title('Historgrama de Edades ')
+    ax1.set_title('Histograma de Edades ')
     ax1.set_xlabel('edad en quinqueneso')
     st.pyplot(fig1)
 
